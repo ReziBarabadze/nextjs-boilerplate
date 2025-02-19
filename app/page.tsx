@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="px-12 relative">
         <div className="w-full h-screen relative">
           <Image
-            src="/car.jpg"
+            src="/images/car.jpg"
             alt="Background"
             fill
             className="object-cover rounded-[20px]"
