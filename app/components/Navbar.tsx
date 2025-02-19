@@ -28,19 +28,19 @@ const Navbar = () => {
         </li>
         <li>
           <Link href="/contact" className="text-gray-500">
-            Contact
+            Contacts
           </Link>
         </li>
       </ul>
       <div className="flex gap-4 items-center">
         <select
-          className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-md cursor-pointer transition-colors"
+          className="px-2 py-1 text-md bg-gray-100 hover:bg-gray-200 rounded-md cursor-pointer transition-colors outline-none"
           defaultValue="en"
         >
           <option value="ka">GEO</option>
           <option value="en">ENG</option>
         </select>
-        <MdApps className="w-8 h-8 text-gray-600 cursor-pointer hover:text-gray-800" />
+        <MdApps className="w-10 h-10 text-gray-600 cursor-pointer hover:text-gray-800" />
       </div>
     </div>
   );
