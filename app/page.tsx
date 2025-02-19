@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Services from "./components/Services";
+import Services from "../components/Services";
+import OurFleet from "../components/OurFleet";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 const HomePage = () => {
   return (
@@ -18,7 +20,7 @@ const HomePage = () => {
               <h1 className="text-[80px] font-bold text-black text-center">
                 Luxury Limo Hire
               </h1>
-              <p className="text-2xl text-gray-800 text-center mt-6 mb-8">
+              <p className="text-xl text-gray-800 text-center mt-6 mb-8">
                 We offer proffesional car rental & limousine services <br /> in
                 our range of high-end vehicles
               </p>
@@ -68,6 +70,8 @@ const HomePage = () => {
         </div>
       </div>
       <Services />
+      <OurFleet />
+      <WhyChooseUs />
     </>
   );
 };
